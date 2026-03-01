@@ -1,0 +1,62 @@
+# ============================================================================
+# Advanced Requirements with Optional Dependencies
+# ============================================================================
+
+# Core Requirements (Required)
+streamlit==1.28.1
+SpeechRecognition==3.10.0
+googletrans==4.0.0rc1
+gTTS==2.4.0
+pyaudio==0.2.13
+python-dotenv==1.0.0
+
+# ============================================================================
+# Optional Dependencies for Advanced Features
+# ============================================================================
+
+# For improved speech recognition (offline capability)
+# Uncomment if you want to use Whisper for speech-to-text:
+# openai-whisper==20231117
+
+# For advanced audio processing
+# scipy==1.11.4
+# librosa==0.9.2
+# soundfile==0.12.1
+
+# For better error logging
+# sentry-sdk==1.38.0
+
+# For performance optimization
+# numba==0.58.1
+
+# For database support (if you want to store translations)
+# sqlalchemy==2.0.23
+# sqlite3  # (included with Python)
+
+# ============================================================================
+# Development Dependencies (Optional)
+# ============================================================================
+
+# For code formatting and linting
+# black==23.12.0
+# pylint==3.0.3
+# flake8==6.1.0
+
+# For testing
+# pytest==7.4.3
+# pytest-cov==4.1.0
+
+# ============================================================================
+# INSTALLATION INSTRUCTIONS
+# ============================================================================
+
+# Basic installation (all dependencies):
+# pip install -r requirements.txt
+
+# For development with linting:
+# pip install -r requirements.txt black pylint flake8
+
+# For offline speech recognition:
+# pip install -r requirements.txt openai-whisper
+
+# ============================================================================
